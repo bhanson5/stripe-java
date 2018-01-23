@@ -219,6 +219,98 @@ public class Account extends APIResource implements HasId, MetadataStore<Account
 	public void setType(String type) {
 		this.type = type;
 	}
+	
+	public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setBusinessLogo(String businessLogo) {
+        this.businessLogo = businessLogo;
+    }
+
+    public void setBusinessName(String businessName) {
+        this.businessName = businessName;
+    }
+
+    public void setBusinessURL(String businessURL) {
+        this.businessURL = businessURL;
+    }
+
+    public void setChargesEnabled(Boolean chargesEnabled) {
+        this.chargesEnabled = chargesEnabled;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
+    public void setDefaultCurrency(String defaultCurrency) {
+        this.defaultCurrency = defaultCurrency;
+    }
+
+    public void setDetailsSubmitted(Boolean detailsSubmitted) {
+        this.detailsSubmitted = detailsSubmitted;
+    }
+
+    public void setDisplayName(String displayName) {
+        this.displayName = displayName;
+    }
+
+    public void setLoginLinks(LoginLinkCollection loginLinks) {
+        this.loginLinks = loginLinks;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setExternalAccounts(ExternalAccountCollection externalAccounts) {
+        this.externalAccounts = externalAccounts;
+    }
+
+    public void setKeys(Keys keys) {
+        this.keys = keys;
+    }
+
+    public void setLegalEntity(LegalEntity legalEntity) {
+        this.legalEntity = legalEntity;
+    }
+
+    public void setManaged(Boolean managed) {
+        this.managed = managed;
+    }
+
+    public void setMetadata(Map<String, String> metadata) {
+        this.metadata = metadata;
+    }
+
+    public void setStatementDescriptor(String statementDescriptor) {
+        this.statementDescriptor = statementDescriptor;
+    }
+
+    public void setSupportEmail(String supportEmail) {
+        this.supportEmail = supportEmail;
+    }
+
+    public void setSupportPhone(String supportPhone) {
+        this.supportPhone = supportPhone;
+    }
+
+    public void setSupportURL(String supportURL) {
+        this.supportURL = supportURL;
+    }
+
+    public void setTimezone(String timezone) {
+        this.timezone = timezone;
+    }
+
+    public void setTransfersEnabled(Boolean transfersEnabled) {
+        this.transfersEnabled = transfersEnabled;
+    }
+
+    public void setVerification(Verification verification) {
+        this.verification = verification;
+    }
 
 	public Verification getVerification() {
 		return verification;
